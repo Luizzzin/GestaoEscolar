@@ -29,7 +29,7 @@ public class Aluno {
         return "Aluno{" +
                 "nomeAluno='" + nomeAluno + '\'' +
                 ", idadeAluno=" + idadeAluno +
-                ", matriculaAluno='" + matriculaAluno + '\'' +
+                ", matriculaAluno= '" + matriculaAluno + '\'' +
                 '}';
 
     }
