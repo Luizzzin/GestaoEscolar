@@ -4,10 +4,12 @@ public class Professor {
 
     private String nomeProfessor;
     private String disciplinaProfessor;
+    private String idadeProfessor;
 
-    public Professor(String nomeProfessor, String disciplinaProfessor) {
+    public Professor(String nomeProfessor, String disciplinaProfessor, String idadeProfessor) {
         this.nomeProfessor = nomeProfessor;
         this.disciplinaProfessor = disciplinaProfessor;
+        this.idadeProfessor = idadeProfessor;
     }
 
     public String getNomeProfessor() {
@@ -18,11 +20,16 @@ public class Professor {
         return disciplinaProfessor;
     }
 
+    public String getIdadeProfessor() {
+        return idadeProfessor;
+    }
+
     @Override
     public String toString() {
         return "Professor{" +
                 "nomeProfessor='" + nomeProfessor + '\'' +
                 ", disciplinaProfessor='" + disciplinaProfessor + '\'' +
+                ", idadeProfessor='" + idadeProfessor + '\'' +
                 '}';
     }
 }
