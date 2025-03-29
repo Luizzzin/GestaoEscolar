@@ -23,6 +23,7 @@ public class Escola {
 
     public void listarAlunos() {
         System.out.println("lista de alunos");
+        System.out.println();
         for (Aluno aluno : alunos) {
             System.out.println(aluno);
         }
@@ -30,12 +31,12 @@ public class Escola {
 
     public void listarProfessores() {
         System.out.println("Lista de professor");
+        System.out.println();
         for (Professor professor : professors) {
             System.out.println(professor);
         }
 
     }
-
 
 }
 
