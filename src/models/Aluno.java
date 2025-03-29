@@ -31,6 +31,6 @@ public class Aluno {
                 ", idadeAluno=" + idadeAluno +
                 ", matriculaAluno='" + matriculaAluno + '\'' +
                 '}';
-        
+
     }
 }
